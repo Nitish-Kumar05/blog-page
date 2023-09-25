@@ -34,12 +34,12 @@ export default async function SlugPage({
   };
 
   return (
-    <div className="xl:divide-y xl:divide-gray-200 xl:dark:divide-gray-700">
+    <div className="xl:divide-y xl:divide-[#8892b0] xl:dark:divide-[#17181d]">
       <header className="pt-6 xl:pb-6">
         <div className="space-y-1 text-center">
           <div className="space-y-10">
             <div>
-              <p className="text-base font-medium leading-6 text-teal-500">
+              <p className="text-base font-medium leading-6 text-[#e09145]">
                 {new Date(data._createdAt).toISOString().split("T")[0]}
               </p>
             </div>
